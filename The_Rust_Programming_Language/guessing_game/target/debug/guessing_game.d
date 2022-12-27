@@ -1,1 +1,0 @@
-/home/serverPi/Documents/developments/rust/rust-book-exercices/The_Rust_Programming_Language/guessing_game/target/debug/guessing_game: /home/serverPi/Documents/developments/rust/rust-book-exercices/The_Rust_Programming_Language/guessing_game/src/main.rs
