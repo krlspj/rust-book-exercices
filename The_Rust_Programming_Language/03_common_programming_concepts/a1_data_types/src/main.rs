@@ -5,4 +5,10 @@ fn main() {
     let guess2: u32 = 45;
 
     println!("guess {guess} guess2 {guess2}");
+
+    let t: bool = true;
+    let f: bool; // can't use uninitialized values
+
+    f = false;
+    println!("t -> {t}, f -> {f}");
 }
