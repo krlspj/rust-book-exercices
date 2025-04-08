@@ -7,10 +7,10 @@ pub struct ApplicationUserService {
 }
 
 impl ApplicationUserService {
-    pub fn new() -> Self {
+    pub fn new(user_svc: UserService, user_repo: UserRepository) -> Self {
         ApplicationUserService {
-            user_service: UserService::new(),
-            user_repository: UserRepository::new(),
+            user_service: user_svc,
+            user_repository: user_repo,
         }
     }
 
