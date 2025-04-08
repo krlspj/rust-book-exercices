@@ -1,6 +1,5 @@
-pub mod repository {
-    pub mod conv_repo;
+pub mod db {
+    pub mod conversation_repository;
 }
 
-pub use repository::conv_repo::UserRepository;
-//pub use repository::conv_repo::UserRepository;
+pub use db::conversation_repository::UserRepository;
