@@ -1,0 +1,13 @@
+[package]
+name = "ultimate_newtypes_solutions"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+argon2 = { version = "0.5.3", features = ["std"] }
+emojis = "0.6.2"
+regex = { version = "1.10.4", features = ["unicode-bool"] }
+thiserror = "1.0.61"
+unicode-segmentation = "1.11.0"
