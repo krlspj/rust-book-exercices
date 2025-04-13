@@ -24,7 +24,6 @@ fn main() {
     println!("new code 3!");
     println!("new code 4!");
     println!("new code 5!");
-    println!("new code 6!");
 }
 //fn main() {
 //    println!("Hello, world!");
